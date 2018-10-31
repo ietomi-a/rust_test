@@ -1,0 +1,6 @@
+[package]
+name = "hello"
+version = "0.1.0"
+authors = ["ietomi on mac <ssbnj838@yahoo.co.jp>"]
+
+[dependencies]

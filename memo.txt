@@ -1,0 +1,23 @@
+emacs 環境の準備
+以下を参考にした.
+https://github.com/rust-lang/rust-mode
+
+以下を .emacs に書き込む
+
+(require 'package)
+(add-to-list 'package-archives
+             '("melpa" . "https://melpa.org/packages/") t)
+(package-initialize)
+
+
+M-x package-install
+とすると何をインストールするか聞かれるので、
+rust-mode
+と入力.
+
+これで .rs のファイルを開くと rust-mode として動作する。
+
+
+------------------------------------------------------------------
+以下のunittest の記事は見ておきたい.
+https://qiita.com/Khigashiguchi/items/32c03c6886a4a81605d5
